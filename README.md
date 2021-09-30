@@ -13,6 +13,18 @@
 1. 자료나 코드의 이름 형식은 자유롭게 해도 됩니다!
 2. 제가 README.md 파일을 수정하기만 해도 레포에는 변경점이 생긴 것이기 때문에 수시로 git pull을 해주세요
 
+## 주차별 커리큘럼
+
+|n주차|주제|과제|
+|----|----|----|
+|1주차|깃과 리눅스, 자료구조란? + 배열|없음|
+|2주차|스택과 큐, 연결리스트|[hw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw1), [hw2](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw2), [hw3](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw3), [hw4](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw4)|
+|3주차|트리구조|[whw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw1)|
+|4주차|해시|아직 없음|
+|5주차|정렬 알고리즘|아직 없음|
+|6주차|그래프 구조|아직 없음|
+|7주차|그래프 구조에서의 탐색|아직 없음|
+|8주차|총 복습|아직 없음|
 ## 스터디 진행 방식
 
 ### 일정
