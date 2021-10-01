@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>//exit
-#include <conio.h> //getch
-
-#define _CRT_SECURE_NO_WARNINGS
-#pragma warning (disable : 4996)
-#pragma warning(disable : 6031)
-#pragma warning(disable : 6011)
+#include <termios.h> //getch
 
 //---------------------------------------------------------------------------------------------//struct
 typedef struct Node
@@ -18,6 +13,7 @@ void insertNodeFront();		//리스트 시작에 노드 추가
 void insertNodeRear();		//리스트에 끝에 노드 추가
 void printList();			//리스트 출력
 void unInitList();			//동적 할당된 연결리스트 해제
+int getkey(int is_echo);
 
 //---------------------------------------------------------------------------------------------//main
 
@@ -48,7 +44,7 @@ int main()
 		}
 
 		printf("\n\n\t\t계속 하려면 아무키나 누르세요");
-		_getch();
+		getkey(0);
 	}
 
 	return 0;
@@ -136,3 +132,20 @@ void unInitList()
 	free(head); //마지막 노드 삭제
 	printf("동적 메모리가 해제\n");
 }
+
+int getkey(int is_echo) {
+    int ch; struct termios old; 
+    struct termios current; /* 현재 설정된 terminal i/o 값을 backup함 */ 
+    tcgetattr(0, &old); /* 현재의 설정된 terminal i/o에 일부 속성만 변경하기 위해 복사함 */ 
+    current = old; /* buffer i/o를 중단함 */ 
+    current.c_lflag &= ~ICANON; 
+    if (is_echo) { // 입력값을 화면에 표시할 경우
+     current.c_lflag |= ECHO; } 
+     else { // 입력값을 화면에 표시하지 않을 경우 
+     current.c_lflag &= ~ECHO; } 
+     /* 변경된 설정값으로 설정합니다.*/ 
+     tcsetattr(0, TCSANOW, &current); 
+     ch = getchar(); 
+     tcsetattr(0, TCSANOW, &old); 
+     return ch; 
+     }
