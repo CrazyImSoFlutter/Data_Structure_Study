@@ -13,7 +13,7 @@ void init_queue(QueueType *q){
 }
 
 int is_Empty(QueueType *q){
-    return (q->front ==  q->rear);
+    return (q->front >=  q->rear);
 }
 
 int is_Full(QueueType *q){
