@@ -2,10 +2,36 @@
 #include <stdlib.h>
 
 typedef int element;
-typedef struct { 	// 노드 타입
+typedef struct listNode{ 	// 노드 타입
 	element data;
-	struct ListNode *link;
+	struct listNode *link;
 } ListNode;
+
+// 저장된 데이터 개수 반환
+int get_size(ListNode* head) {
+	ListNode* p;
+	int count = 0;
+	if (head == NULL) return 0;
+	p = head->link;
+	count++;
+	while (p != head) {
+		count++;
+		p = p->link;
+	}
+	return count;
+}
+
+//특정한 값 탐색
+ListNode* search(ListNode* head, element data) {
+	ListNode* p;
+	if (head == NULL) return NULL;
+	p = head->link;
+	do {
+		if (p->data == data) return p;  
+		p = p->link;
+	} while (p != head);
+	return NULL;
+}
 
 // 리스트의 항목 출력
 void print_list(ListNode* head)
@@ -18,7 +44,7 @@ void print_list(ListNode* head)
 		printf("%d->", p->data);
 		p = p->link;
 	} while (  p != head );
-	printf("%d->", p->data); // 마지막 노드
+	printf("%d\n", p->data); // 마지막 노드
 }
 // 앞부분 삽입
 ListNode* insert_first(ListNode* head, element data)
