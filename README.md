@@ -15,16 +15,16 @@
 
 ## 주차별 커리큘럼
 
-|n주차|주제|과제|진행여부|
-|----|----|----|----|
-|1주차|깃과 리눅스, 자료구조란? + 배열|없음|완료|
-|2주차|스택과 큐, 연결리스트|[hw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw1), [hw2](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw2), [hw3](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw3), [hw4](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw4)|완료|
-|3주차|트리구조|[whw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw1)|완료|
-|4주차|해시|아직 없음||
-|5주차|정렬 알고리즘|아직 없음||
-|6주차|그래프 구조|아직 없음||
-|7주차|그래프 구조에서의 탐색|아직 없음||
-|8주차|총 복습|아직 없음||
+|n주차|주제|과제|발표자|진행여부|
+|----|----|----|----|----|
+|1주차|깃과 리눅스, 자료구조란? + 배열|없음|노현근|완료|
+|2주차|스택과 큐, 연결리스트|[hw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw1), [hw2](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw2), [hw3](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw3), [hw4](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw4)|이종민|완료|
+|3주차|트리구조|[whw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw1)|박정민|완료|
+|4주차|해시|아직 없음|장윤서||
+|5주차|정렬 알고리즘|아직 없음|노현근||
+|6주차|그래프 구조|아직 없음|민경호||
+|7주차|그래프 구조에서의 탐색|아직 없음|배성준||
+|8주차|총 복습|아직 없음|노현||
 ## 스터디 진행 방식
 
 ### 일정
