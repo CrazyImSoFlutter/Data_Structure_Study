@@ -21,7 +21,7 @@
 |2주차|스택과 큐, 연결리스트|[hw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw1), [hw2](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw2), [hw3](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw3), [hw4](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw4)|이종민|완료||
 |3주차|트리구조|[whw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw1)|박정민|완료||
 |4주차|해시|아직 없음|장윤서|완료||
-|5주차|정렬 알고리즘|아직 없음|노현근||박정민|
+|5주차|정렬 알고리즘|아직 없음|노현근|완료|박정민|
 |6주차|그래프 구조|아직 없음|민경호||이종민|
 |7주차|그래프 구조에서의 탐색|아직 없음|배성준||
 |8주차|총 복습|아직 없음|노현근||
