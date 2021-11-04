@@ -22,7 +22,7 @@
 |3주차|트리구조|[whw1](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw1), [hw5](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/hw5), [whw2](https://github.com/CrazyImSoFlutter/Data_Structure_Study/tree/main/CISF_NHG/hw/whw2)|박정민|완료||
 |4주차|해시|아직 없음|장윤서|완료||
 |5주차|정렬 알고리즘|아직 없음|노현근|완료|박정민|
-|6주차|그래프 구조|아직 없음|민경호||이종민|
+|6주차|그래프 구조|아직 없음|민경호|완료|이종민|
 |7주차|그래프 구조에서의 탐색|아직 없음|배성준||
 |8주차|총 복습|아직 없음|노현근||
 ## 스터디 진행 방식
