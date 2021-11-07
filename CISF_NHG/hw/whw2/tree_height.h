@@ -27,6 +27,7 @@ struct all {
 	int loop_time;
 	int N;
 	int min_height;
+	int average;
 	int max_draw;
 	int draw_flag;
 	int limit_flag;

@@ -41,6 +41,7 @@ void draw(all *t) {
 	char a[10];
 	char b[20] = "index";
 	char c[20] = "count";
+	char d[20] = "average";
 	int color;
 	int n;
 
@@ -62,7 +63,10 @@ void draw(all *t) {
 		itoa(t->result[i + t->min_height], a, 10);
 		mlx_string_put(t->mlx, t->win, i * width + 100 + width / 2, 660, 0xDDDDDD, a);
 	}
-	mlx_string_put(t->mlx, t->win, 50, 600, 0xDDDDDD, b);
-	mlx_string_put(t->mlx, t->win, 50, 630, 0xDDDDDD, c);
+	itoa(t->average, a, 10);
+	mlx_string_put(t->mlx, t->win, 50, 630, 0xDDDDDD, b);
+	mlx_string_put(t->mlx, t->win, 50, 660, 0xDDDDDD, c);
+	mlx_string_put(t->mlx, t->win, 50, 690, 0xDDDDDD, d);
+	mlx_string_put(t->mlx, t->win, 150, 690, 0xDDDDDD, a);
 	t->draw_flag = 0;
 }

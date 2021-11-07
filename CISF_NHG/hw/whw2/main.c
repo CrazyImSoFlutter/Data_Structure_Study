@@ -12,9 +12,7 @@ int main() {
 	srand(time(NULL));
 	init_pool(&t);
 	printf("Choose a, b, or c for N.\n");
-	printf("a. 50\n");
-	printf("b. 100\n");
-	printf("c. 500\n");
+	printf("a. 50\nb. 100\nc. 200\nd. 500\n");
 	flag = getchar();
 	if (flag == 'a') {
 		t.N = 50;
@@ -22,13 +20,17 @@ int main() {
 	} else if (flag == 'b') {
 		t.N = 100;
 		t.min_height = (int)(log2(t.N));
-	} else if (flag == 'c') {
+	} else if (flag == 'c'){
+		t.N = 200;
+		t.min_height = (int)(log2(t.N));
+	} else if (flag == 'd') {
 		t.N = 500;
 		t.min_height = (int)(log2(t.N));
 	}
 	printf("How many time will you loop?\n");
 	scanf("%d", &t.loop_time);
 	loop(&t);
+
 	t.mlx = mlx_init();
 	t.win = mlx_new_window(t.mlx, 1080, 720, "tree_height");
 	t.img = mlx_new_image(t.mlx, 1080, 720);
